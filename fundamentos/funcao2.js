@@ -1,0 +1,19 @@
+// Armazenando função em variável
+const imprmirSoma = function (a, b) {
+    console.log(a + b)
+}
+
+imprmirSoma(2, 3)
+
+// Armazenando uma função arrow (função implícita) em uma variável
+const soma = (a, b) => {
+    return a + b
+}
+console.log(soma(2, 3))
+
+// retorno implícito
+const subtracao = (a, b) => a - b
+console.log(subtracao(2, 3))
+
+const imprimir2 = a => console.log(a)
+imprimir2('Legal!!!')
