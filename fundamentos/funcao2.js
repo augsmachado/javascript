@@ -1,9 +1,9 @@
 // Armazenando função em variável
-const imprmirSoma = function (a, b) {
+const imprimirSoma = function (a, b) {
     console.log(a + b)
 }
 
-imprmirSoma(2, 3)
+imprimirSoma(2, 3)
 
 // Armazenando uma função arrow (função implícita) em uma variável
 const soma = (a, b) => {

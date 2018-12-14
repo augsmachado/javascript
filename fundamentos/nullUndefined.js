@@ -1,6 +1,6 @@
 // Passagem de valores por referência se dá em objects
 const a = {name: "teste"}
-console.log(a)
+console.log("a:", a)
 
 const b = a
 b.name = "Opa"
@@ -34,9 +34,12 @@ produto.preco = undefined
 
 console.log(!!produto.preco)
 
-// tira o atributo do objeto
-//delete produto.preco
-console.log(produto)
+/**
+ * Tira o atributo do objeto
+ * 
+ * delete produto.preco
+ * console.log(produto)
+ */
 
 produto.preco = null // sem preco
 console.log(!!produto.preco)
