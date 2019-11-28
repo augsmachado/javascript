@@ -4,7 +4,7 @@ const pilotos = ['Vettel', 'Alonso', 'Raikkonen', 'Massa']
 pilotos.pop() // remove o ultimo elemnto
 console.log(pilotos) // massa acabou de quebrar o carro!
 
-pilotos.push('Verstappen') // adiciona novo elemento a lista
+pilotos.push('Verstappen') // adiciona novo elemento a lista na ultima posicao
 console.log(pilotos)
 
 pilotos.shift() // retira o primeiro elemento
