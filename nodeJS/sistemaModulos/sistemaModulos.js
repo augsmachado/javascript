@@ -9,7 +9,7 @@ Como orgnizo uma aplicacao em JS?
     nao precisa se preocupar com compactacao
     usa dados em formato JSON
 
-No Node um arquivo pode representar um modulo dentro de uma pasta
+No Node um arquivo representa um modulo dentro de uma pasta
 Um modulo so fica disponivel dentro do modulo, para ficar disponivel vc precisa importar ele
 
 Para rodar um codigo Node, vc pode acessar a pasta e roda o comando >> node nomeArquivo.js

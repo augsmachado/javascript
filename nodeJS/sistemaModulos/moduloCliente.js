@@ -1,5 +1,5 @@
 // sempre que uma classe terminar com Cliente, ela usa outros modulos
-const moduloA = require('./moduloA') // caminho realtivo para acessar o arquivo
+const moduloA = require('./moduloA') // caminho relativo para acessar o arquivo
 const moduloB = require('./moduloB')
 
 console.log(moduloA.ola)
